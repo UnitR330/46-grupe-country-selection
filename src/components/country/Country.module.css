@@ -1,0 +1,51 @@
+.countries {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    border: 2px black solid;
+
+}
+
+.flagContainer{
+    display: flex;
+    margin: 1rem;
+}
+
+.flag {
+    height: 8rem;
+    width: auto;
+    display:flex;
+    background-color:brown;
+}
+
+.details {
+    height: 8rem;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(173, 173, 142);
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.title {
+font-size: 1.2rem;
+margin: 0.2rem 0;
+
+
+}
+
+.description {
+    color: blue;
+
+}
+
+
+
+
+
+
+
+
+
