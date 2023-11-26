@@ -3,7 +3,8 @@
     flex-direction: row;
     margin: 2rem;
     border: 2px black solid;
-
+    border-radius: 20px;
+    
 }
 
 .flagContainer{
@@ -12,6 +13,7 @@
 }
 
 .flag {
+    border-radius: 20px;
     height: 8rem;
     width: auto;
     display:flex;
@@ -23,7 +25,7 @@
     width: auto;
     flex-direction: column;
     display: flex;
-    background-color: rgb(173, 173, 142);
+    background-color: rgb(224, 224, 171);
     justify-content: center;
     margin: 1rem;
     text-align: left;

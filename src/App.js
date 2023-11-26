@@ -1,6 +1,5 @@
 
 
-
 import { Region } from './components/region/Region';
 import './App.css';
 import { useEffect, useState } from 'react';
