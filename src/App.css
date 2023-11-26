@@ -1,6 +1,19 @@
 .App {
   text-align: center;
   display: flex;
-  flex-direction: column;
   width: 100%;
+  flex-direction: column;
+}
+
+.search-container {
+align-self: flex-end;
+margin-top: 4rem; 
+margin-right: 4rem;
+height: 60px;
+}
+
+
+.search-container input {
+  font-size: 2rem;
+  padding: 0.5rem; 
 }

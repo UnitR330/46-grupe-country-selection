@@ -7,9 +7,10 @@ export function Country({name, population, flag}){
             <img className={style.flag} src={flag} alt="flag"/>
             </div>
             <div className={style.details}>
-            <div className={style.title}>{name}</div>
-            <div className={style.population}>{population} people</div>
+            <div className={style.title}>Country name: {name}</div>
+            <div className={style.population}>Population: {population} people</div>
             </div>
         </div>
     );
 }
+
